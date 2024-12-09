@@ -1,5 +1,5 @@
 item_dict={}
-f=open("C:/moni/stationary_dar.txt","r")
+f=open("stationary_dar.txt","r")
 while True:
     item=f.readline()
     if item=='':
@@ -104,7 +104,7 @@ while True:
     else:
         continue
     
-f=open("C:/moni/stationary_dar.txt","r")
+f=open("stationary_dar.txt","r")
 for x in item_dict:
     f.write(x+"\n")
     f.write(str(item_dict[x][0])+"\n")
